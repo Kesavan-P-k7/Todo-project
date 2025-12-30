@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="theme-toggle">
+    <button onclick="toggleTheme()">🌙</button>
+</div>
+<div class="container">
+    <h1>📝 To-Do List</h1>
+
+    <div class="input-box">
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
