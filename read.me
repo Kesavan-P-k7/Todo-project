@@ -3,25 +3,25 @@
 A simple, modern, and user-friendly To-Do List Web Application built using Python Flask, SQLite, HTML, CSS, and JavaScript.
 This project supports adding, deleting, and completing tasks using checkboxes, with an attractive UI and light/dark theme option.
 
-🚀 Features
+ Features
 
-➕ Add new tasks
+ Add new tasks
 
-☑ Mark tasks as completed using checkbox
+ Mark tasks as completed using checkbox
 
-❌ Delete tasks
+ Delete tasks
 
-🎨 Colorful gradient background
+ Colorful gradient background
 
-🌙 Light / Dark theme toggle
+ Light / Dark theme toggle
 
-💾 Persistent storage using SQLite database
+ Persistent storage using SQLite database
 
-⚡ Dynamic updates using JavaScript Fetch API
+ Dynamic updates using JavaScript Fetch API
 
-📱 Clean and responsive UI
+ Clean and responsive UI
 
-🛠️ Technologies Used
+ Technologies Used
 Backend
 
 Python
@@ -38,40 +38,7 @@ CSS3
 
 JavaScript (Fetch API)
 
-📁 Project Structure
-todo_app/
-│
-├── app.py
-├── todo.db
-│
-├── templates/
-│   └── index.html
-│
-├── static/
-│   ├── style.css
-│   └── script.js
-│
-└── README.md
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/your-username/todo-flask-app.git
-cd todo-flask-app
-
-2️⃣ Create virtual environment (optional but recommended)
-python -m venv .venv
-.venv\Scripts\activate   # Windows
-
-3️⃣ Install dependencies
-pip install flask
-
-4️⃣ Run the application
-python app.py
-
-5️⃣ Open in browser
-http://127.0.0.1:5000
-
-🗄️ Database
 
 Uses SQLite
 
@@ -85,23 +52,23 @@ CREATE TABLE tasks (
     completed INTEGER DEFAULT 0
 );
 
-🔄 API Endpoints
+ API Endpoints
 Method	Endpoint	Description
 GET	/tasks	Fetch all tasks
 POST	/add	Add a new task
 PUT	/update/<id>	Update task completion
 DELETE	/delete/<id>	Delete a task
-🎯 How Checkbox Works
+ How Checkbox Works
 
-⬜ Unchecked → completed = 0
+ Unchecked → completed = 0
 
-☑ Checked → completed = 1
+ Checked → completed = 1
 
 Checkbox state is sent to backend using PUT request
 
 UI updates dynamically without page reload
 
-🧠 Learning Outcomes
+ Learning Outcomes
 
 Flask routing and REST APIs
 
@@ -113,11 +80,11 @@ JavaScript Fetch API
 
 UI theming with CSS variables
 
-📌 Resume Description (You can use this)
+ Resume Description (You can use this)
 
 Developed a full-stack To-Do List web application using Python Flask, SQLite, HTML, CSS, and JavaScript. Implemented CRUD operations, task completion using checkboxes, RESTful APIs, and a modern UI with light/dark theme support.
 
-📷 Screenshots (Optional)
+ Screenshots (Optional)
 
 Add screenshots of your UI here if uploading to GitHub.
 
