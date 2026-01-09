@@ -28,7 +28,7 @@ create_table()
 def index():
     return render_template("index.html")
 
-# Get all tasks
+
 @app.route("/tasks", methods=["GET"])
 def get_tasks():
     conn = get_db_connection()
